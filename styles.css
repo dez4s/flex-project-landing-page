@@ -271,7 +271,7 @@ button:hover {
     color: black;
 }
 
-@media(max-width:768px){
+@media(max-width:1050px){
     img.header{
         width: 0%;
     }
