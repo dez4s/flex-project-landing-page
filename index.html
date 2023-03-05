@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Martial Arts Corner</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="top">    
-    <nav class="navbar">
+   <nav class="navbar">
         <div class="container">
-            <div class="logo">Home<img src="" alt=""></div>
+            <div class="logo-container">
+                <p class="logo">MARTIAL ARTS HUB</p>
+                <img class="logo" src="../icons/027-martial-art.png" alt="Kimono Logo image">
+            </div>
             <ul class="nav">
-                <li>
-                    <a href="">Store</a>
+                <li class="logo-links">
+                    <a href="">STORE</a>
+                    <img src="../icons/017-belt.png" alt="">
                 </li>
-                <li>
-                    <a href="">About</a>
+                <li class="logo-links">
+                    <a href="">ABOUT</a>
+                    <img src="../icons/024-ying-yang.png" alt="">
                 </li>
-                <li>
-                    <a href="">Contact</a>
+                <li class="logo-links">
+                    <a href="">CONTACT</a>
+                    <img src="../icons/006-nunchaku.png" alt="">
                 </li>
             </ul>
         </div>
@@ -27,51 +36,57 @@
     <header class="header">
         <div class="container">
             <div>
-                <h1>The Martial Arts Corner</h1>
-                <p>This website is dedicated to the sacred world of martial arts. There is never to late to join and be a part of this journey</p>
-                <button>Sign Up</button>
+                <h1 class="header">Join the world of martial arts</h1>
+                <p class="header">There is never to late to learn. Everybody has a style and we will help you find yours. Begin the journey of self discovery now or never!</p>
+                <button class="header">Sign Up</button>
             </div>
-            <img src="" alt="">
+            <img class="header" src="../images/headerimg.jpg" alt="">
         </div>
     </header>
-</div>
-<section class="options">
-    <div class="container">
-        <h3>Pick your style!</h3>
-        <div class="boxes">
-            <div class="box">
-                <img src="" alt="">
-                <p>Description of martial style</p>
-            </div>
-            <div class="box">
-                <img src="" alt="">
-                <p>Description of martial style</p>
-            </div>
-            <div class="box">
-                <img src="" alt="">
-                <p>Description of martial style</p>
-            </div>
-            <div class="box">
-                <img src="" alt="">
-                <p>Description of martial style</p>
+    <section class="options">
+        <div class="container">
+            <h3 class="options">Choose your fighting style!</h3>
+            <div class="boxes">
+                <div class="box">
+                    <img src="../images/box.jpg" alt="Boxing bout image">
+                    <p class="box-text">Boxing</p>
+                </div>
+                <div class="box">
+                    <img src="../images/bjj.jpg" alt="Brazilian Jiu Jitsu match image">
+                    <p class="box-text">Brazilian Jiu Jitsu</p>
+                </div>
+                <div class="box">
+                    <img src="../images/muay-thai.jpg" alt="Muay Thai fighter kneeling image">
+                    <p class="box-text">Muay Thai</p>
+                </div>
+                <div class="box">
+                    <img src="../images/wrestling.jpg" alt="Wrestling match image">
+                    <p class="box-text">Wrestling</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="quote">
+    </section>
+    <section class="quote">
     <div class="container">
-        <h1>Quote</h1>
-        <p>Author</p>
+        <h1 class="quote"><em>“Don’t fear failure. Not failure, but low aim, is the crime. In great attempts it is glorious even to fail.”</em></h1>
+        <p class="quote">-Bruce Lee</p>
     </div>
-</section>
-<section class="register">
-    <div>
-        <h1>Call to action! It's time<h1>
-        <p></p>
-    </div>
-    <button>Sign up</button>
-</section>
-<footer class="footer">
-    Copyright &copy; The Odin Project 2023
+    </section>
+    <section class="register">
+        <div class="container">
+            <div>
+                <div class="logo-register">
+                <h1>Take action now. It's your time!<h1>
+                <img src="../icons/022-gold-cup.png" alt="First place trophy"> 
+                </div>
+                <p>Don't wait. Your journey start here. You're just a click away.</p>
+            </div>
+            <button class="register">
+                <p>Enroll Now</p>
+                <img id="logo-enroll" src="../icons/011-boxing-gloves.png" alt="Boxing gloves">
+            </button>
+        </div>
+    </section>
+    <footer class="footer">Copyright DEZ &copy; The Odin Project 2023</footer>
 </body>
 </html>
