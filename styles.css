@@ -100,7 +100,7 @@ nav{
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 100px; 
 }
 
 .navbar .container{
@@ -275,5 +275,30 @@ button:hover {
 @media(max-width:1050px){
     img.header{
         width: 0%;
+    }
+}
+
+@media(max-width:768px){
+    ul.nav{
+        flex-direction:column; 
+        gap: 5px;
+    }
+    
+    .register .container{       
+        flex-direction: column;
+        gap: 10px;
+    }
+    .logo-register{
+        flex-direction: column;
+        gap: 5px;
+    }
+    *{
+        text-align: center;       
+    }
+    .header .container div{
+        align-items: center;
+    }
+    .logo-container{
+        flex-direction: column;
     }
 }
