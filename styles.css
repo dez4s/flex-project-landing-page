@@ -198,7 +198,7 @@ section.register{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0 20px 0;
+    padding: 100px 0 90px 0;
 }
 
 .register .container{
@@ -268,7 +268,8 @@ button:hover {
     align-items: center;
     font-size: 12px;
     background-color: #171f2a;
-    color: black;
+    color: white;
+    height: 75px;
 }
 
 @media(max-width:1050px){
