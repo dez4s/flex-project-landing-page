@@ -281,7 +281,7 @@ button:hover {
 @media(max-width:768px){
     ul.nav{
         flex-direction:column; 
-        gap: 5px;
+        gap: 10px;
     }
     
     .register .container{       
@@ -299,6 +299,28 @@ button:hover {
         align-items: center;
     }
     .logo-container{
+        flex-direction: row;
+    }
+    .navbar .container{
+        width: 90%;  
+    }
+    .logo-container .logo{
+        font-size: 16px;
+    } 
+    img.logo{
+        width: 17px;
+    }
+    .logo-links a{
+    font-size: 12px;
+    }
+    .logo-links img{
+        width: 13px;
+    }
+}
+
+@media(max-width:555px){
+    .options .boxes{
         flex-direction: column;
+        justify-content: center;
     }
 }
