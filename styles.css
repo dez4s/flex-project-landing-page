@@ -205,8 +205,9 @@ section.register{
     color: rgb(253, 176, 121);
     width: 75%;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 
 button.register{
